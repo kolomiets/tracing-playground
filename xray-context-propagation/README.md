@@ -1,14 +1,22 @@
-# Welcome to your CDK TypeScript project
+# Trace context propagation with AWS X-Ray and Lambda
 
-This is a blank project for TypeScript development with CDK.
+This is a samle project for [Trace context propagation in event-driven architectures](https://medium.com/@dmitrykolomiets/trace-context-propagation-in-event-driven-architectures-ba9181b1b57?source=friends_link&sk=ad98d9cc52bebc6b92074d908b2eb20e) article.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-## Useful commands
+## Deployment
+This project relies on [AWS Cloud Development Kit](https://aws.amazon.com/cdk/). See [Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) for installation instructions.
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+Run the following commands to deploy the project in your AWS account:
+
+* `npm install` - install all npm dependencies
+* `cdk deploy` - deploy this stack to your default AWS account/region
+
+## Running the test
+Go to AWS Lambda console and locate `producer-function`. Go to the `Test` tab and hit `Test` button (use any payload, it is not used):
+
+![image](https://user-images.githubusercontent.com/270567/158897130-c57ad361-817f-473c-be99-ba60a7ed0384.png)
+
+## Accessing the traces
+Go to AWS CloudWatch console and switch to X-Ray traces -> Service map. Dril down to the traces.
+
+![image](https://user-images.githubusercontent.com/270567/158897349-8de399a0-e468-45ef-ba95-ecb444b17471.png)
