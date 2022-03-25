@@ -1,7 +1,6 @@
 # Trace context propagation with AWS X-Ray and Lambda
 
-This is a sample project for [Trace context propagation in event-driven architectures](https://medium.com/@dmitrykolomiets/trace-context-propagation-in-event-driven-architectures-ba9181b1b57?source=friends_link&sk=ad98d9cc52bebc6b92074d908b2eb20e) article.
-
+This is a sample project for [TBD]() article.
 
 ## Deployment
 This project relies on [AWS Cloud Development Kit](https://aws.amazon.com/cdk/). See [Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) for installation instructions.
