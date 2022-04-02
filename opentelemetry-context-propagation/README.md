@@ -1,6 +1,6 @@
 # Trace context propagation with AWS X-Ray and Lambda
 
-This is a sample project for [TBD]() article.
+This is a sample project for [Trace context propagation with OpenTelemetry](https://medium.com/@dmitrykolomiets/b8816f2f065e?source=friends_link&sk=dbed25d85d4fc29d770fe677349c9e66) article.
 
 ## Deployment
 This project relies on [AWS Cloud Development Kit](https://aws.amazon.com/cdk/). See [Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) for installation instructions.
