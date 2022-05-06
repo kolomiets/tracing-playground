@@ -1,0 +1,4 @@
+opentelemetry-exporter-otlp==1.9.1
+
+opentelemetry-instrumentation-botocore==0.28b1
+opentelemetry-instrumentation-logging==0.28b1
