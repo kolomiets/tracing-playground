@@ -1,4 +1,4 @@
-# Trace context propagation with AWS X-Ray and Lambda
+# Trace context propagation with AWS Distro for OpenTelemetry and Jaeger
 
 This is a sample project for [Using AWS Distro for OpenTelemetry with Jaeger](TODO) article.
 
