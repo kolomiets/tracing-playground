@@ -1,6 +1,6 @@
 # Trace context propagation with AWS Distro for OpenTelemetry and Jaeger
 
-This is a sample project for [Using AWS Distro for OpenTelemetry with Jaeger](TODO) article.
+This is a sample project for [Using AWS Distro for OpenTelemetry with Jaeger](https://betterprogramming.pub/using-aws-distro-for-opentelemetry-with-jaeger-acf4df3a8e37?source=friends_link&sk=5c27f1cb04622e8644377b12779dd232) article.
 
 ## Deployment
 This project relies on [AWS Cloud Development Kit](https://aws.amazon.com/cdk/). See [Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) for installation instructions.
