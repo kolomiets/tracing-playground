@@ -9,3 +9,5 @@ opentelemetry-instrumentation-logging==0.28b1
 # See https://github.com/open-telemetry/opentelemetry-python/releases for exact versions
 # opentelemetry-sdk==1.9.1
 # opentelemetry-instrumentation==0.28b1
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
